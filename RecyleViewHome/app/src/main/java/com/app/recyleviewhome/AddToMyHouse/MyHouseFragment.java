@@ -43,9 +43,9 @@ public class MyHouseFragment extends Fragment {
         designButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                furniture_category_myhouse furniture = new furniture_category_myhouse();
+                design_category_myhouse design = new design_category_myhouse();
                 FragmentTransaction ft = getChildFragmentManager().beginTransaction();
-                ft.replace(R.id.framelayoutmyhouse, furniture);
+                ft.replace(R.id.framelayoutmyhouse, design);
                 ft.addToBackStack(null);
                 ft.commit();
             }
@@ -54,9 +54,9 @@ public class MyHouseFragment extends Fragment {
         furnitureButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                design_category_myhouse design = new design_category_myhouse();
+                furniture_category_myhouse furniture = new furniture_category_myhouse();
                 FragmentTransaction ft = getChildFragmentManager().beginTransaction();
-                ft.replace(R.id.framelayoutmyhouse, design);
+                ft.replace(R.id.framelayoutmyhouse, furniture);
                 ft.addToBackStack(null);
                 ft.commit();
             }

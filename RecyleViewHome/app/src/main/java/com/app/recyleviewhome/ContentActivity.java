@@ -40,21 +40,38 @@ public class ContentActivity extends AppCompatActivity {
         int gambar_konten = intent.getExtras().getInt("image");
         String type = intent.getExtras().getString("type");
 
+        TextView designorfurn = findViewById(R.id.textView9);
+        TextView jenisKonten = findViewById(R.id.textView10);
+
+        if(type.equals("lamp")||type.equals("chair")||type.equals("bed")||type.equals("table")) {
+            designorfurn.setText("Furniture");
+        } else if(type.equals("bedRoom")||type.equals("bathRoom")||type.equals("kitchen")||type.equals("livingRoom")){
+            designorfurn.setText("Design & Decoration");
+        }
+
         if(type.equals("bedRoom")){
+            jenisKonten.setText("Bedroom");
             if(DataApps.getInstance().designState[0]==true) newAddMyHouse.setBackgroundColor(Color.RED);
         } else if(type.equals("bathRoom")){
+            jenisKonten.setText("Bathroom");
             if(DataApps.getInstance().designState[1]==true) newAddMyHouse.setBackgroundColor(Color.RED);
         } else if(type.equals("kitchen")){
+            jenisKonten.setText("Kitchen");
             if(DataApps.getInstance().designState[2]==true) newAddMyHouse.setBackgroundColor(Color.RED);
         } else if(type.equals("livingRoom")){
+            jenisKonten.setText("Livingroom");
             if(DataApps.getInstance().designState[3]==true) newAddMyHouse.setBackgroundColor(Color.RED);
         } else if(type.equals("lamp")){
+            jenisKonten.setText("Lamp");
             if(DataApps.getInstance().furnitureState[0]==true) newAddMyHouse.setBackgroundColor(Color.RED);
         } else if(type.equals("chair")){
+            jenisKonten.setText("Chair");
             if(DataApps.getInstance().furnitureState[1]==true) newAddMyHouse.setBackgroundColor(Color.RED);
         } else if(type.equals("bed")){
+            jenisKonten.setText("Bed");
             if(DataApps.getInstance().furnitureState[2]==true) newAddMyHouse.setBackgroundColor(Color.RED);
         } else if(type.equals("table")){
+            jenisKonten.setText("Table");
             if(DataApps.getInstance().furnitureState[3]==true) newAddMyHouse.setBackgroundColor(Color.RED);
         }
 
