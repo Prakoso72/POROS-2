@@ -3,7 +3,6 @@ package com.app.recyleviewhome.PassingData;
 import com.app.recyleviewhome.ui.modalClass;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class DataApps {
     private static DataApps instance = null;
@@ -23,6 +22,7 @@ public class DataApps {
 
     public modalClass[] add = new modalClass[4];
     public boolean[] designState = {false,false,false,false};
-    public modalClass[] addFurniture = new modalClass[4];
+
+    public ArrayList<modalClass> addFurniture = new ArrayList<>();
     public boolean[] furnitureState = {false,false,false,false};
 }

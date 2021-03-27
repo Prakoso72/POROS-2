@@ -21,21 +21,21 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <!--    Judul Design & Funiture-->
-    <string name="bed1">Cozy Bed Emerald</string>
-    <string name="bed2">Green Bed Emerald</string>
-    <string name="bed3">Yellow Bed Emeralda</string>
+    <string name="bed1">Claret Way</string>
+    <string name="bed2">Rocabye</string>
+    <string name="bed3">Sherwood Custom</string>
 
-    <string name="dp1">Tuscany style</string>
-    <string name="dp2">Turkish acany style</string>
-    <string name="dp3">American style</string>
+    <string name="dp1">Poros Kitchen Shine</string>
+    <string name="dp2">Pawon Jowo</string>
+    <string name="dp3">Clean Blue Sky</string>
 
-    <string name="km1">Light color style</string>
-    <string name="km2">European style</string>
-    <string name="km3">Asian style tucany</string>
+    <string name="km1">Hidden Prairie Farm</string>
+    <string name="km2">Rocklegde</string>
+    <string name="km3">41st</string>
 
-    <string name="liv1">Cozy Emerald Tuscany</string>
-    <string name="liv2">Green cozy Emerald</string>
-    <string name="liv3">Yellow olive Emeralda</string>
+    <string name="liv1">Sun Bright Calm</string>
+    <string name="liv2">Anomion Strares</string>
+    <string name="liv3">Jawa Joglo</string>
 
     <string name="kasur1">Cozy Bed Emerald</string>
     <string name="kasur2">Green Bed Emerald</string>
@@ -72,182 +72,85 @@
 
 <!--    Untuk Deskripsi Furniture-->
 
-    <string name="bed1_desc">
-        Elegant and eye-catching, the stunning Black Velvet Luxus King Bed from Meridian Furniture is the perfect addition to any space.
-        Overall Dimensions: 110" W x 100.5" D x 55" H
-        PATENT PENDING Design
-        Soft Black Velvet
-        Round Bed
-        Deep Button Tufting
-        Footboard Height 15.5"
-        Footboard Inner Storage Dimensions 55.5"L x 11.5"D x 12.25"H
-        Rails Inner Storage Dimensions 78.75"L x 13.5"D x 12.25"H
-        Contemporary Design
+    <string name="kasur_desc">
+        Elegant and eye-catching, the stunning Black Velvet Luxus King Bed from Meridian Furniture is the perfect addition to any space.\n
+        \nOverall Dimensions: 110" W x 100.5" D x 55" H\n
+        \nPATENT PENDING Design\n
+        \nSoft Black Velvet\n
+        \nRound Bed\n
+        \nDeep Button Tufting\n
+        \nFootboard Height 15.5"\n
+        \nFootboard Inner Storage Dimensions 55.5"L x 11.5"D x 12.25"H\n
+        \nRails Inner Storage Dimensions 78.75"L x 13.5"D x 12.25"H\n
+        \nContemporary Design\n
     </string>
 
-        <string name="bed2_desc">
-        The BALI bed not only offers comfort, but also plenty of storage space to keep your personal belongings, decor, clothes and bed linen. This beautiful and functional bed brings an abundance of well distributed compartments. It is smart chic design complemented with elegance from the eco leather handles.
-        Memomad furniture …
-        .. are designed to fall in love!!
-        Our Brazillian furniture projects are a link with the quality, design and functionality.
-        Bali Bed …
-        The sturdy Bali Platform Bed is all made in solid pine wood and has synthetic leather handles. Includes the bed bases. Thinking about your safety, all edges are rounded
-        Comes in Caramel and White Colors and is Available in King, Queen, and Twin sizes
-        Insertion mattress depth: 3 inches and the mattress area is . Does not include a mattress
-        The bed has 6 six drawers, 4 four shelves, 3 three compartments with doors and also 2 two pullout shelves, that work well as a nightstand, for your favorite frame, reading books, coffee cups, cellphone charger or alarm clock. This piece of furniture optimizes your bedroom space
-        High support capacity! Total: 880 lb. Largest compartment: 33 lb/each. Smaller compartment: 11 lb/each. Drawers: 11 lb/each. Pullover shelf: 6,5 lb/each
-        Product Description :
-
-        Size :King, Queen, Twin
-        Color : Off White
-        Material : Menomad
-        Width : 76 inches
-        Length : 80 inches
+        <string name="chair_desc">
+        Hand assembled plywood lounge chair and ottoman. 100% real italian leather, including piping and buttons. High-elastic soft foam, great resilience and no marks. 7-ply laminated real wood veneer, prevent warping or cracking, security and longevity.\n
+        \nCast Aluminum five-star base with 360 degree swivel function, fixed backward tilt of approximately 15 degrees. Rubber Shock Mounts connecting the head and back rest allow for flexibility. The height of the chair is fixed and cannot adjust. It is the same as the original design.\n
+        \n
+        \nChair = L35.4 x W35 x H31.5\n
+        \nSeat height: 15.7 inches(40CM)\n
+        \nOttoman = L27 x W20.9 x H15.7\n
+        \nFits perfectly in : sitting room, study room, leisure area, bedroom, office, club, etc.\n
     </string>
 
-        <string name="bed3_desc">
-        Guerin two-tone bed is an artistic expression in contemporary furniture design. The box shape of the frame has slightly curved side panels and the frame is covered with high quality faux leather. This attractive and charming bed provides both comfort and relaxation. Guerins mix of sleek, comfort and elegant curved design makes this bed a unique contemporary addition to any bedroom. It features wooden frames, chrome legs and is upholstered with durable faux leather.
-        Features :
-
-        Finish: White/Gray
-        Headboard: 37.75"H x 65.50"W x 5"D
-        Material: Faux Leather and Microfiber
-        Top of Slat: 10.50" High
-        Residential Only
-        Futuristic Platform Bed
-        White Faux Leather And Gray Fabric Two Tones Upholstery
-        Box Spring is not Required
-
-        Specifications
-        Product Dimensions : 37.75"H x 65.5"W x 90.88"D
-        Product Weight : 109 lbs
-        Weight Capacity : 600 lbs
-        Leg Dimensions : 2.13" High
+        <string name="lamp_desc">
+        \nClean, Geometric Lines Open The Visual Space Around This Modern Floor Lamp. Staggered Steel Rectangles Finished In Lightly Antiqued Gold Leaf Are Each Accented By A Clear Glass Globe. Three 40W T14, Amber Colored, Antique Style Bulbs Are Included.\n
+        \nHeirloom Quality - Expertly hand crafted and hand finished. Due to the hand crafted nature of this piece, each piece may have subtle differences.\n
+        \nDimensions : 14"L x 8"W x 64"H.\n
+        \nWeights : 29.5 lbs.\n
+        \nMaterial :  Hand Finished Steel and Glass\n
+        \nUL listed. Uses three max 40 watt Type A bulbs (Three 40W T14, amber colored, antique style bulbs are included.)\n
     </string>
 
-        <string name="chair1_desc">
-        Welcome to the modern lounging essential. Flexible style and luxurious comfort in chic, family-friendly upholstery. Simplified armless lounging sofa is upholstered in soft, durable, stain-resistant Crypton fabric in an invitingly dark charcoal color. Two cushions provide back support while one seat cushion offers sink-in comfort. Match it up with Corner Chair to create a sectional sofa.
-        Dimensions: W: 72" D: 40" H: 30"
-        Seat Depth is 27.5"
-        Constructed from 100% polyester Crypton fabric and maple wood
-        Charcoal gray upholstery with an expresso brown frame
-        Henry Charcoal color fabric upholstery
-        Kiln-dried hardwood frame
-        Banak Wood Legs
-        Matching Sectional available
-        Category: Living Room
-        Type: Sofas
-        Colors: Henry Charcoal, Espresso
-        Materials: 100% Polyester, Banak Wood
-        Weight: 100 lb
+        <string name="meja_desc">
+        \nExpand the storage capabilities of your work space with desk! Its vertical design saves floor space while enhancing storage options. Made of quality board, this desk ensures sturdiness, durability and long service life. The stylish modern layout features split levels of storage and display space to easily organize and store your folders, documents, reminders, PC equipment and more. Stylish, space-saving and functional at the same time, our desk is perfect for any tight office, dorm space, tiny house, or even if you just prefer to manage the space you have!\n
+        \nColor: Sonoma oak\n
+        \nMaterial: Chipboard\n
+        \nOverall dimensions: 43.3" x 17.7" x 61.8" (L x W x H)\n
+        \nAmple storage space with upper cabinet\n
+        \nEasy to clean with damp cloth\n
     </string>
 
-        <string name="chair2_desc">
-        MODERN DESIGN : With clean, precise lines, our dining chairs are the ideal modern accessory for your outdoor space. Finished with sleek silver legs and piped stitching, this frame not only offers a chic, minimalistic look but also provides incredible structure.
-        BUTTON TUFTED WAFFLE STITCH : The button-tufted stitching in the seating offers an extra touch of sophistication that enhances its contemporary design. The waffle stitch pattern adds a bit of texture without sacrificing any comfort.
-        STAINLESS STEEL LEGS : Supported by stainless steel legs, this set of chairs is made to be durable and easy to maintain. The shiny finish of this base accentuates the modern design of the piece.
-
-        DIMENSIONS: 20.00" W x 27.50" D x 35.25" H.
-        Includes: Two (2) Dining Chairs
-        Material: Corrected Grain Leather
-        Frame Material: Stainless Steel
-        Color: Black
-        Leg Finish: Silver
-        Hand-Crafted Details
-
-        Dimensions: 27.50 inches deep x 20.00 inches wide x 32.25 inches high
-        Seat Dimensions: 18.75 inches deep x 20.00 inches wide x 18.75 inches high
+<!--    Design Desc-->
+    <string name="descbedroom">
+        This 3200 square foot home features a maintenance free exterior of LP Smartside,\n
+        corrugated aluminum roofing, and native prairie landscaping. The design of the structure.\n
+        is intended to mimic the architectural lines of classic farm buildings. The outdoor living.\n
+        areas are as important to this home as the interior spaces; covered and exposed porches.\n
+        field stone patios and an enclosed screen porch all offer expansive views of the surrounding meadow and tree line.\n
+        The home’s interior combines rustic timbers and soaring spaces which would have traditionally been reserved for the barn and outbuildings.\n
+        with classic finishes customarily found in the family homestead. Walls of windows and cathedral ceilings invite the outdoors in. Locally sourced\n
+        reclaimed posts and beams, wide plank white oak flooring and a Door County fieldstone fireplace juxtapose with classic white cabinetry and millwork.
     </string>
 
-        <string name="chair3_desc">
-        Hand assembled plywood lounge chair and ottoman. 100% real italian leather, including piping and buttons. High-elastic soft foam, great resilience and no marks. 7-ply laminated real wood veneer, prevent warping or cracking, security and longevity.
-        Cast Aluminum five-star base with 360 degree swivel function, fixed backward tilt of approximately 15 degrees. Rubber Shock Mounts connecting the head and back rest allow for flexibility. The height of the chair is fixed and cannot adjust. It's the same as the original design.
-
-        Chair = L35.4 x W35 x H31.5
-        Seat height: 15.7 inches(40CM)
-        Ottoman = L27 x W20.9 x H15.7
-        Fits perfectly in : sitting room, study room, leisure area, bedroom, office, club, etc.
+    <string name="descbathroom">
+        SDH Studio - Architecture and Design Location: Golden Beach, Florida, USA Overlooking the canal\n
+        in Golden Beach 96 GB was designed around a 27 foot triple height space that would be the heart of this home.\n
+        With an emphasis on the natural scenery, the interior architecture of the house opens up towards the water and fills the space with natural\n
+        light and greenery.The outdoor living areas are as important to this home as the interior spaces; covered and exposed porches, field stone patios\n
+        and an enclosed screen porch all offer expansive views of the surrounding meadow and tree line.
     </string>
 
-        <string name="lamp1_desc">Light up your living room, bedroom or office with this sleek and modern "Amore" 86" Modern Jet Black 5-Arch LED Floor lamp with dimmer switch . "Amore" is a perfect addition to any room with modern or contemporary decor. The "Amore" floor lamp holds Super bright 2400 Lumens, 40W replacement and warm LED lights with dimming function. The curved design adds a soft note to your decor. Standing over 7 feet, the fixture has a statuesque appearance and draw attention. The Artiva exclusive LED floor lamp allows you to direct the light wherever you need it and provide ample lighting for reading, writing, or creating a spot light in the setting behind the couch, in the corner or in the center of your living room. Heavy weighted base grants perfect balance and prevents the lamp from tipping. Artiva USA exclusive, five true 360-Degree view bulb included.
-        Exclusive Five 4.5-Watt (2400 Lumens, 200-Watt replacement) true 360 view filament bulb included
-        Adjustable arches (left or right) and adjustable modern shade (up to 90 degree)
-        Beautiful Modern Jet Black finish
-        Featuring Exclusive LED dimmer switch
-        Number of bulbs required: 5
-        Bulbs included
-        US Patented Design US Patent# US D822, 878 S
+    <string name="desclivingroom">
+        RIn this combination living room/ family room, form vs function is at its best.. Formal enough to host a cocktail party, and\n
+        comfortable enough to host a football game. The wrap around sectional accommodates 5-6 people and the oversized ottoman has room\n
+        enough for everyone to put their feet up! The high back, stylized wing chair offers comfort and a lamp for reading.\n
+        Decorative accessories are placed in the custom built bookcases freeing table top space for drinks, books, etc.\n
+        Magazines and current reading are neatly placed in the rattan tray for easy access.\n
+        The overall neutral color palette is punctuated by soft shades of blue around the room. LORRAINE G VALE photo by Michael Costa\n
+        The lampshade - good example of what to find for the lamp with the pottery base for the livingroom
     </string>
 
-        <string name="lamp2_desc">
-        Clean, Geometric Lines Open The Visual Space Around This Modern Floor Lamp. Staggered Steel Rectangles Finished In Lightly Antiqued Gold Leaf Are Each Accented By A Clear Glass Globe. Three 40W T14, Amber Colored, Antique Style Bulbs Are Included.
-        Heirloom Quality - Expertly hand crafted and hand finished. Due to the hand crafted nature of this piece, each piece may have subtle differences.
-        Dimensions : 14"L x 8"W x 64"H.
-        Weights : 29.5 lbs.
-        Material :  Hand Finished Steel and Glass
-        UL listed. Uses three max 40 watt Type A bulbs (Three 40W T14, amber colored, antique style bulbs are included.)
+    <string name="desckitchen">
+        This homes kitchen isnt large and needed to somehow hold a mudroom area as the detached garage enters into the space.\n
+        I carefully planned out all storage needs and we were able to add a wide, double door cabinet closet by the back door.\n
+        The upper area holds coats and clutter. The lower doors have hooks and boot trays for backpacks and shoes.\n
+        Paneling the Subzero fridge helps with softening the weight of the large appliance, as does the panel on the dishwasher.\n
+        Little details like the skirt on the toe area and the beautiful hood and island posts make this smaller work space truly special!\n
+        light and bright; bottom of cabinets.
     </string>
 
-        <string name="lamp3_desc">
-        SLEEK, VERSATILE STYLE: Unique wooden floor lamp with black wood finish featuring 3-tier open box shelves, rectangle linen shade and pull-chain. This tall, contemporary fixture emits a soft, warm ambiance that also acts as a multi-purpose display piece
-        PERFECT FOR FAMILIES: Easy to build floor lamp is ideal for use in any living room, bedroom, dorm, den or office. This convenient, stylish floor lamp can light up any corner while providing storage for your favorite books, vases, collectibles or DVDs
-        UL LISTED FOR YOUR SAFETY: Includes (1) 23W CFL bulb (Warm White, Energy Efficient). Compatible with LED, CFL or up to 100W traditional incandescent medium base bulbs
 
-        DIMENSIONS:
-        - Floor Light: 62.5" (H) x 10.25" (W) x 10.25" (L)
-        Base: 10.25" (W) x 0.75" (H), Shade: 14.5" (H) x 8.5" (W) x 8.5" (L).
-        Wall switch, timer and smart plug compatible
-        The floor lamp includes : (1) 23W Warm White Energy Efficient Compact Fluorescent bulb (100W incandescent replacement).
-        Collection: Toro
-        Finish: Matte Black
-        Material: Wood
-        Lighting Direction: Up/Down LightRecommended Room Type: Dining-room, Bedroom, Living-roomSpecification Met: Ul Listed
-    </string>
-
-        <string name="table1_desc">
-        This L-shaped computer desk is suitable for placing in a corner. In this corner, you can do your work more freely because under the desktop has much space for you to stretch your body. Also, there are two drawers and adjustable shelf allowing you to store your files and other stuffs. It features a slide-out keyboard that glides on smooth metal runners. This computer desk also features a grommet hole so you can keep all your wires neat and out of the wayTo get the L-shaped desk, assembly is needed. The boards which are used to construct the desk will connect and strengthen with screws and other parts.
-        Feature
-
-        Brand new and high quality
-        Wood grain and simple lines make this computer desk looks classic and elegant
-
-        Constructed from high-grade MDF and PB board
-        Dimensions : 66'' x 66'' L-shape
-        Utility :
-        - 2 drawers, cabinet and a open shelf offer extra room for convenient storing your office supplies, books
-        - 3 holes designed in left cabinet allow you to adjust the shelf height
-
-        Specification
-        Material : MDF, PB
-        Color: black
-        Table size : 66'' x 66'' x 30''( LxWxH)
-        Net weight : 121 lbs
-        Weight capacity : 440 lbs
-        Package includes : 1x computer desk
-    </string>
-
-        <string name="table2_desc">
-        Expand the storage capabilities of your work space with desk! Its vertical design saves floor space while enhancing storage options. Made of quality board, this desk ensures sturdiness, durability and long service life. The stylish modern layout features split levels of storage and display space to easily organize and store your folders, documents, reminders, PC equipment and more. Stylish, space-saving and functional at the same time, our desk is perfect for any tight office, dorm space, tiny house, or even if you just prefer to manage the space you have!
-        Color: Sonoma oak
-        Material: Chipboard
-        Overall dimensions: 43.3" x 17.7" x 61.8" (L x W x H)
-        Ample storage space with upper cabinet
-        Easy to clean with damp cloth
-    </string>
-
-        <string name="table3_desc">
-        This drawing table, featuring a comfortable working space, will absolutely be a great helper to your drawing, writing, etc. This high-quality table, with tiltable tabletop, offers a lot of space for work, which makes it perfectly suitable for studying and technical drawing. The sheet stopper keeps paper on the table while the top is tilted. Our writing table also has three slide-out drawers for additional storage. The included stool is thickly padded to make you comfortable while working. The table is constructed from high quality MDF and supported by powder coated iron legs for durability, which will surely serve you many years.
-        Specifications of table:
-
-        Material: MDF + powder coated iron legs
-        Table overall dimensions: 47" x 23.6" x 30.5" (L x W x H)
-        Drawers overall dimensions: 14.4 x 13.4" x 14.4" (L x W x H)
-        Tabletop adjusts from 0 - 80 degrees
-        With 3 drawers
-        Specifications of stool:
-
-        Seat diameter: 11.8"
-        Seat height from the ground: 20.3"
-        Fabric: Polyester: 30%, Polyurethane: 70%
-    </string>
 </resources>

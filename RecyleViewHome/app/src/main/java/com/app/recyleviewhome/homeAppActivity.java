@@ -1,13 +1,13 @@
 package com.app.recyleviewhome;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.FrameLayout;
 import android.widget.SearchView;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.app.recyleviewhome.AddToMyHouse.MyHouseFragment;
 import com.app.recyleviewhome.Home.HomeFragment;

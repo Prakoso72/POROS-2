@@ -6,75 +6,83 @@
     android:layout_height="match_parent"
     tools:context=".ContentActivity">
 
-    <ImageView
-        android:id="@+id/contentImg"
-        android:scaleType="fitXY"
-        android:adjustViewBounds="true"
-        android:layout_width="369dp"
-        android:layout_height="320dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.038"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <ImageView
+        android:id="@+id/contentImg"
+        android:layout_width="362dp"
+        android:layout_height="308dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:layout_constraintVertical_bias="0.012"
         app:srcCompat="@drawable/bed1" />
 
     <TextView
         android:id="@+id/judulCon"
-        android:textAlignment="textEnd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
         android:text="TextView"
-        android:textSize="14dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.059"
+        app:layout_constraintHorizontal_bias="0.062"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/contentImg"
-        app:layout_constraintVertical_bias="0.021" />
+        app:layout_constraintTop_toBottomOf="@+id/contentImg" />
 
     <TextView
         android:id="@+id/desCon"
-        android:layout_width="369dp"
-        android:layout_height="230dp"
+        android:layout_width="372dp"
+        android:layout_height="142dp"
+        android:layout_marginTop="16dp"
         android:text="TextView"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/saveBut"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.564"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/judulCon"
-        app:layout_constraintVertical_bias="0.094" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/saveBut"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        android:background="@color/AppGreen"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="16dp"
+        android:text="Save"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.144"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/desCon"
-        app:layout_constraintVertical_bias="0.784" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/addMyhousebut"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        android:background="@color/AppGreen"
+        android:layout_marginBottom="16dp"
+        android:text="Add To MyHouse"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.748"
-        app:layout_constraintStart_toEndOf="@+id/saveBut"
-        app:layout_constraintTop_toBottomOf="@+id/desCon"
-        app:layout_constraintVertical_bias="0.784" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_begin="395dp" />
-
+        app:layout_constraintHorizontal_bias="0.847"
+        app:layout_constraintStart_toEndOf="@+id/saveBut" />
 </androidx.constraintlayout.widget.ConstraintLayout>

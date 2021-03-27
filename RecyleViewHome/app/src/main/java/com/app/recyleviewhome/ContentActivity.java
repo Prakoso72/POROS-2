@@ -1,7 +1,5 @@
 package com.app.recyleviewhome;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -10,10 +8,10 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.app.recyleviewhome.PassingData.DataApps;
 import com.app.recyleviewhome.ui.modalClass;
-
-import static android.app.PendingIntent.getActivity;
 
 public class ContentActivity extends AppCompatActivity {
 
@@ -97,19 +95,19 @@ public class ContentActivity extends AppCompatActivity {
                     if(DataApps.getInstance().designState[3]==false) newAddMyHouse.setBackgroundColor(Color.RED);
                     DataApps.getInstance().designState[3] = true;
                 } else if(type.equals("lamp")){
-                    DataApps.getInstance().addFurniture[0] = new modalClass(gambar_konten,judul_konten,deskripsi_konten,type);
+                    DataApps.getInstance().addFurniture.add(new modalClass(gambar_konten,judul_konten,deskripsi_konten,type));
                     if(DataApps.getInstance().furnitureState[0]==false) newAddMyHouse.setBackgroundColor(Color.RED);
                     DataApps.getInstance().furnitureState[0] = true;
                 } else if(type.equals("chair")){
-                    DataApps.getInstance().addFurniture[1] = new modalClass(gambar_konten,judul_konten,deskripsi_konten,type);
+                    DataApps.getInstance().addFurniture.add(new modalClass(gambar_konten,judul_konten,deskripsi_konten,type));
                     if(DataApps.getInstance().furnitureState[1]==false) newAddMyHouse.setBackgroundColor(Color.RED);
                     DataApps.getInstance().furnitureState[1] = true;
                 } else if(type.equals("bed")){
-                    DataApps.getInstance().addFurniture[2] = new modalClass(gambar_konten,judul_konten,deskripsi_konten,type);
+                    DataApps.getInstance().addFurniture.add(new modalClass(gambar_konten,judul_konten,deskripsi_konten,type));
                     if(DataApps.getInstance().furnitureState[2]==false) newAddMyHouse.setBackgroundColor(Color.RED);
                     DataApps.getInstance().furnitureState[2] = true;
                 } else if(type.equals("table")){
-                    DataApps.getInstance().addFurniture[3] = new modalClass(gambar_konten,judul_konten,deskripsi_konten,type);
+                    DataApps.getInstance().addFurniture.add(new modalClass(gambar_konten,judul_konten,deskripsi_konten,type));
                     if(DataApps.getInstance().furnitureState[3]==false) newAddMyHouse.setBackgroundColor(Color.RED);
                     DataApps.getInstance().furnitureState[3] = true;
                 }

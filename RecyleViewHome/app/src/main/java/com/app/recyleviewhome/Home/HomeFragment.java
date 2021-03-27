@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.annotation.Nullable;
@@ -17,11 +16,7 @@ import com.app.recyleviewhome.R;
 public class HomeFragment extends android.app.Fragment {
     View v;
 
-    TextView designtextbut,savetextbut,navButton,tes123;
-
-    public HomeFragment() {
-        // Required empty public constructor
-    }
+    TextView designtextbut,furniturebut;
 
 
     @RequiresApi(api = Build.VERSION_CODES.M)
@@ -30,8 +25,7 @@ public class HomeFragment extends android.app.Fragment {
 
         v = inflater.inflate(R.layout.fragment_home, container, false);
         designtextbut = v.findViewById(R.id.buttondesign);
-        savetextbut = v.findViewById(R.id.buttonSave);
-//        navButton = v.findViewById(R.id.home_fragment_but);
+        furniturebut = v.findViewById(R.id.buttonSave);
 
 
         universal_category universal = new universal_category();
@@ -43,22 +37,21 @@ public class HomeFragment extends android.app.Fragment {
         designtextbut.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                furniture_category_fix furniture = new furniture_category_fix();
-                FragmentTransaction ft = getChildFragmentManager().beginTransaction();
-                ft.replace(R.id.frameLayoutHome, furniture);
-                ft.addToBackStack(null);
-                ft.commit();
-            }
-        });
-
-        savetextbut.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
                 design_category_fix desain = new design_category_fix();
                 FragmentTransaction ft = getChildFragmentManager().beginTransaction();
                 ft.replace(R.id.frameLayoutHome, desain);
+                ft.addToBackStack(null);
+                ft.commit();
+
+            }
+        });
+
+        furniturebut.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                furniture_category_fix furniture = new furniture_category_fix();
+                FragmentTransaction ft = getChildFragmentManager().beginTransaction();
+                ft.replace(R.id.frameLayoutHome, furniture);
                 ft.addToBackStack(null);
                 ft.commit();
 
