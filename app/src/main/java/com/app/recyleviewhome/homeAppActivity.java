@@ -10,6 +10,8 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.app.recyleviewhome.AddToMyHouse.MyHouseFragment;
+import com.app.recyleviewhome.AddToMyHouse.design_category_myhouse;
+import com.app.recyleviewhome.AddToMyHouse.furniture_category_myhouse;
 import com.app.recyleviewhome.Home.HomeFragment;
 import com.app.recyleviewhome.Save.SaveFragment;
 import com.app.recyleviewhome.User.UserFragment;
@@ -39,7 +41,11 @@ public class homeAppActivity extends AppCompatActivity {
                         fragmentTransaction.commit();
                         break;
                     case R.id.myhouse_fragment_but:
-                        fragmentTransaction.replace(R.id.frameLayout, new MyHouseFragment());
+                        fragmentTransaction.replace(R.id.frameLayout, new design_category_myhouse());
+                        fragmentTransaction.commit();
+                        break;
+                    case R.id.myhouse_funiture_but:
+                        fragmentTransaction.replace(R.id.frameLayout, new furniture_category_myhouse());
                         fragmentTransaction.commit();
                         break;
                     case R.id.save_fragment_but:

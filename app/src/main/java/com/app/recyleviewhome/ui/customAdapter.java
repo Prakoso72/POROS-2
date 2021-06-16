@@ -46,7 +46,7 @@ public class customAdapter extends RecyclerView.Adapter<customAdapter.myviewHold
                 Intent intent = new Intent(context, ContentActivity.class);
                 intent.putExtra("image", mlist.get(position).getImage());
                 intent.putExtra("text", mlist.get(position).getText());
-                intent.putExtra("desc",mlist.get(position).getDesc()); //kurang nampilin
+                intent.putExtra("desc",mlist.get(position).getDesc());
                 intent.putExtra("type",mlist.get(position).getType());
                 context.startActivity(intent);
             }

@@ -11,6 +11,9 @@
         android:id="@+id/myhouse_fragment_but"
         android:icon="@drawable/myhouse"/>
     <item android:title=""
+        android:id="@+id/myhouse_funiture_but"
+        android:icon="@drawable/funiture"/>
+    <item android:title=""
         android:id="@+id/save_fragment_but"
         android:icon="@drawable/save"/>
     <item android:title=""
