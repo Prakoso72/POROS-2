@@ -13,9 +13,10 @@
 
     <TextView
         android:id="@+id/mysavetext"
+        android:fontFamily="@font/monserratmedium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="10dp"
         android:gravity="center"
         android:text="Save" />
 
@@ -26,6 +27,7 @@
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:gravity="center"
+        android:layout_marginBottom="15dp"
         android:text="Design &amp; Decoration"
         />
 
@@ -36,6 +38,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/mysavetext"
         android:gravity="center"
+        android:layout_marginBottom="15dp"
         android:layout_toRightOf="@+id/buttondesign_save"
         android:text="Funiture"
         />

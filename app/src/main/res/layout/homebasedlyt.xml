@@ -24,7 +24,9 @@
 
             <TextView
                 android:id="@+id/layouttxt"
+                android:fontFamily="@font/monserratmedium"
                 android:layout_width="match_parent"
+
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/layoutimg"
                 android:padding="10dp"/>

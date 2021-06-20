@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="ButExit">#f71e1e</color>
     <color name="AppGreen">#b8c964</color>
     <color name="textgreen">#369133</color>
     <color name="Buttonafterclick">#399898</color>

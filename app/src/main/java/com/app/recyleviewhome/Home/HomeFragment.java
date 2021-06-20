@@ -1,6 +1,7 @@
 package com.app.recyleviewhome.Home;
 
 import android.app.FragmentTransaction;
+import android.graphics.Typeface;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -26,6 +27,7 @@ public class HomeFragment extends android.app.Fragment {
         v = inflater.inflate(R.layout.fragment_home, container, false);
         designtextbut = v.findViewById(R.id.buttondesign);
         furniturebut = v.findViewById(R.id.buttonSave);
+
 
 
         universal_category universal = new universal_category();

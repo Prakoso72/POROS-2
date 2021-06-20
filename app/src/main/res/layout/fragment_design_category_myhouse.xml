@@ -95,17 +95,20 @@
         app:layout_constraintVertical_bias="0.912" />
 
     <TextView
-        android:layout_marginTop="15dp"
         android:id="@+id/textView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:fontFamily="@font/monserratmedium"
         android:text="Design &amp; Decoration"
         android:textSize="15dp"
         app:layout_constraintBottom_toTopOf="@+id/textView12"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.483" />
 
     <TextView
         android:id="@+id/textView16"

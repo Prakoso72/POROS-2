@@ -46,19 +46,19 @@ public class universal_category extends Fragment {
         mlist = new ArrayList<>();
         mlist.add(new modalClass(R.drawable.bed1, R.string.bed1,R.string.descbedroom,"bedRoom"));
         mlist.add(new modalClass(R.drawable.bed2, R.string.bed2, R.string.descbedroom,"bedRoom"));
+        mlist.add(new modalClass(R.drawable.km2, R.string.km2, R.string.descbathroom,"bathRoom"));
         mlist.add(new modalClass(R.drawable.bed3, R.string.bed3, R.string.descbedroom,"bedRoom"));
         mlist.add(new modalClass(R.drawable.dp1, R.string.dp1, R.string.desckitchen, "kitchen"));
-        mlist.add(new modalClass(R.drawable.dp2, R.string.dp2, R.string.desckitchen,"kitchen"));
-        mlist.add(new modalClass(R.drawable.dp3, R.string.dp3, R.string.desckitchen,"kitchen"));
-        mlist.add(new modalClass(R.drawable.km1, R.string.km1, R.string.descbathroom,"bathRoom"));
-        mlist.add(new modalClass(R.drawable.km2, R.string.km2, R.string.descbathroom,"bathRoom"));
+        mlist.add(new modalClass(R.drawable.chair1, R.string.chair1, R.string.chair_desc, "chair"));
+        mlist.add(new modalClass(R.drawable.chair2, R.string.chair2, R.string.chair_desc, "chair"));
         mlist.add(new modalClass(R.drawable.km3, R.string.km3, R.string.descbathroom,"bathRoom"));
         mlist.add(new modalClass(R.drawable.liv1, R.string.liv1, R.string.desclivingroom,"livingRoom"));
+        mlist.add(new modalClass(R.drawable.dp2, R.string.dp2, R.string.desckitchen,"kitchen"));
+        mlist.add(new modalClass(R.drawable.dp3, R.string.dp3, R.string.desckitchen,"kitchen"));
         mlist.add(new modalClass(R.drawable.liv2, R.string.liv2, R.string.desclivingroom,"livingRoom"));
         mlist.add(new modalClass(R.drawable.liv3, R.string.liv3, R.string.desclivingroom,"livingRoom"));
 
-        mlist.add(new modalClass(R.drawable.chair1, R.string.chair1, R.string.chair_desc, "chair"));
-        mlist.add(new modalClass(R.drawable.chair2, R.string.chair2, R.string.chair_desc, "chair"));
+
         mlist.add(new modalClass(R.drawable.chair3, R.string.chair3, R.string.chair_desc, "chair"));
         mlist.add(new modalClass(R.drawable.kasur1, R.string.kasur1, R.string.kasur_desc, "bed"));
         mlist.add(new modalClass(R.drawable.kasur2, R.string.kasur2, R.string.kasur_desc, "bed"));
@@ -66,6 +66,7 @@ public class universal_category extends Fragment {
         mlist.add(new modalClass(R.drawable.lamp1, R.string.lamp1, R.string.lamp_desc, "lamp"));
         mlist.add(new modalClass(R.drawable.lamp2, R.string.lamp2, R.string.lamp_desc, "lamp"));
         mlist.add(new modalClass(R.drawable.lamp3, R.string.lamp3, R.string.lamp_desc, "lamp"));
+        mlist.add(new modalClass(R.drawable.km1, R.string.km1, R.string.descbathroom,"bathRoom"));
         mlist.add(new modalClass(R.drawable.meja1, R.string.table1, R.string.meja_desc, "table"));
         mlist.add(new modalClass(R.drawable.meja2, R.string.table2, R.string.meja_desc, "table"));
         mlist.add(new modalClass(R.drawable.meja3, R.string.table3, R.string.meja_desc, "table"));

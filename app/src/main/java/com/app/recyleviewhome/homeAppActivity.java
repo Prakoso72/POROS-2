@@ -66,6 +66,12 @@ public class homeAppActivity extends AppCompatActivity {
     }
 
     @Override
+    public void onBackPressed() {
+        return;
+    }
+
+
+    @Override
     public boolean onCreateOptionsMenu (Menu menu){
         getMenuInflater().inflate(R.menu.searchbox, menu);
         MenuItem item = menu.findItem(R.id.action_search);

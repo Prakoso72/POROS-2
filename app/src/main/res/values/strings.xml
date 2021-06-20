@@ -38,20 +38,20 @@
     <string name="liv3">Jawa Joglo</string>
 
     <string name="kasur1">Cozy Bed Emerald</string>
-    <string name="kasur2">Green Bed Emerald</string>
-    <string name="kasur3">Yellow Bed Emeralda</string>
+    <string name="kasur2">European Bed king</string>
+    <string name="kasur3">American Style Bed</string>
 
-    <string name="chair1">Tuscany style</string>
-    <string name="chair2">Turkish acany style</string>
-    <string name="chair3">American style</string>
+    <string name="chair1">Classic Retro</string>
+    <string name="chair2">Turkish Acany Style</string>
+    <string name="chair3">Red America</string>
 
-    <string name="table1">Light color style</string>
-    <string name="table2">European style</string>
-    <string name="table3">Asian style tucany</string>
+    <string name="table1">Bahamas Bright</string>
+    <string name="table2">European Center Classic</string>
+    <string name="table3">Asian Table Wood</string>
 
-    <string name="lamp1">Cozy Emerald Tuscany</string>
-    <string name="lamp2">Green cozy Emerald</string>
-    <string name="lamp3">Yellow olive Emeralda</string>
+    <string name="lamp1">Cozy Lamp African</string>
+    <string name="lamp2">Classic Old Lamp</string>
+    <string name="lamp3">Himalayan Salt Lamp</string>
 
 
     <!--    Untuk Fragment User-->

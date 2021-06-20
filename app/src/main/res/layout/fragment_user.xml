@@ -40,7 +40,7 @@
             android:layout_below="@+id/imgUser"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="15sp"
-            android:fontFamily="sans-serif-light"
+            android:fontFamily="@font/monseratbold"
             android:text="George Exemel"
             android:textColor="@color/white"
             android:textSize="32sp" />
@@ -52,17 +52,17 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/tv_name"
             android:layout_centerHorizontal="true"
-            android:fontFamily="sans-serif"
+            android:fontFamily="@font/monserratmedium"
             android:text="Malang, Indonesia"
             android:textAllCaps="true"
             android:textSize="14sp" />
 
         <ImageView
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:layout_alignParentRight="true"
-            android:layout_marginRight="15dp"
             android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
             android:adjustViewBounds="true"
             android:scaleType="centerInside"
             android:src="@drawable/logobangku" />
@@ -95,16 +95,16 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif-light"
-                    android:text="453K"
+                    android:fontFamily="@font/monserratmedium"
+                    android:text="15"
                     android:textColor="@color/white"
                     android:textSize="25sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif-light"
-                    android:text="followers"
+                    android:fontFamily="@font/monserratlight"
+                    android:text="Connect"
                     android:textAllCaps="true"
                     android:textColor="@color/white"
                     android:textSize="13sp" />
@@ -132,16 +132,16 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif-light"
-                    android:text="873"
+                    android:fontFamily="@font/monserratmedium"
+                    android:text="9"
                     android:textColor="@color/white"
                     android:textSize="25sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif-light"
-                    android:text="following"
+                    android:fontFamily="@font/monserratlight"
+                    android:text="Deal"
                     android:textAllCaps="true"
                     android:textColor="@color/white"
                     android:textSize="13sp" />
@@ -182,10 +182,10 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif-light"
+                    android:fontFamily="@font/monserratmedium"
                     android:text="george@porosfilkomub.com"
                     android:textColor="#000000"
-                    android:textSize="18sp" />
+                    android:textSize="15sp" />
 
                 <View
                     android:layout_width="match_parent"
@@ -211,10 +211,10 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif-light"
+                    android:fontFamily="@font/monserratmedium"
                     android:text="+62-857-636-526-91"
                     android:textColor="#000000"
-                    android:textSize="18sp" />
+                    android:textSize="15sp" />
 
                 <View
                     android:layout_width="match_parent"
@@ -241,9 +241,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Nature, Modern, European, Traditional."
-                    android:fontFamily="sans-serif-light"
+                    android:fontFamily="@font/monserratmedium"
                     android:textColor="#000000"
-                    android:textSize="18sp" />
+                    android:textSize="15sp" />
 
                 <View
                     android:layout_width="match_parent"
@@ -269,20 +269,30 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif-light"
-                    android:text="Cyan, Light Green, Fanta Red, Black"
+                    android:fontFamily="@font/monserratmedium"
+                    android:text="Cyan, Light Green, Fanta Red, Black."
                     android:textColor="#000000"
-                    android:textSize="18sp" />
+                    android:textSize="15sp" />
 
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
                     android:layout_marginTop="15dp"
                     android:background="@color/Appgreen2" />
-
             </LinearLayout>
 
+            <Button
+                android:id="@+id/butexit1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/round_button_exit"
+                android:text="Logout" />
+
         </LinearLayout>
+
     </RelativeLayout>
 
 </RelativeLayout>
